@@ -13,7 +13,7 @@ then
     exitt 1 
 else
     ccho "you are super user."
-if
+fi
 
 dnf install mysql -y
 VALIDATE $? "installing MYSQL"
